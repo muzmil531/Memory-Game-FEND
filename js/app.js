@@ -76,7 +76,7 @@ function showCard() {
 			cardStorage[1].classList.add("match", "disable");
 			if (matchCards.length == 16) {
 				clearInterval(time);
-				// Alert Message on Game Completion
+				// Alert Message on Game Completion with results
 				Swal.fire({
 					title: 'Congratulations',
 					html: 'You Have earned <strong style="color:#ff9f33; text-shadow: 3px 3px 3px #000">' + starCount + '<i class ="fa fa-star"></i></strong> <br> and You Comleted this game with the time of <br>' + hrs + " :: " + min + " :: " + sec + " with the moves "+move,
