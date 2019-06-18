@@ -79,7 +79,7 @@ function showCard() {
 				// Alert Message on Game Completion
 				Swal.fire({
 					title: 'Congratulations',
-					html: 'You Have earned <strong style="color:#ff9f33; text-shadow: 3px 3px 3px #000">' + starCount + '<i class ="fa fa-star"></i></strong> <br> and You Comleted this game with the time of <br>' + hrs + " :: " + min + " :: " + sec,
+					html: 'You Have earned <strong style="color:#ff9f33; text-shadow: 3px 3px 3px #000">' + starCount + '<i class ="fa fa-star"></i></strong> <br> and You Comleted this game with the time of <br>' + hrs + " :: " + min + " :: " + sec + " with the moves "+move,
 					animation: false,
 					confirmButtonText: '<i class="fa fa-thumbs-up"></i> Restart',
 					customClass: {
