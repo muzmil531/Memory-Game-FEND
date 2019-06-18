@@ -42,7 +42,7 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 6.  Added a function to the program called `showCard()` so that after user clicked on it, it get displayed, while click on the card, timer get started  automatically.
 7.  Included a class (`disable`) to disable the card, so that if two  card matches, these are getting disabled automatically.
 8.  Included a method so that if previous card does not match with currentCard then both cards should be closed.
-9.  Instialied a function for star counter, so that if the moves are between 12 to 18, then star count will be 2.If moves get exceeded by 18, then star count should be 1, else star count will be 3.
+9.  Instialied a function for star counter, so that if the moves are between 12 to 15, then star count will be 2.If moves get exceeded by 15, then star count should be 1, else star count will be 3.
 10. Intialised timer display so that the user gets to know the time.
 11. Finally Intialised sweetalert to show the congratulatory message along with time to complete the game, moves taken to complete the game and stars that the user earned.
 
